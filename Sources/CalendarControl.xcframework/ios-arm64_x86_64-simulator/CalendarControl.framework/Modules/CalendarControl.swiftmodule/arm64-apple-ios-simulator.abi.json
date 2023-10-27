@@ -1,0 +1,1255 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "TopLevel",
+    "printedName": "TopLevel",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "CalendarControl"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "Day",
+        "printedName": "Day",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(date:number:isSelected:isWithinDisplayedMonth:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Day",
+                "printedName": "CalendarControl.Day",
+                "usr": "s:15CalendarControl3DayV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Date",
+                "printedName": "Foundation.Date",
+                "usr": "s:10Foundation4DateV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:15CalendarControl3DayV4date6number10isSelected0F20WithinDisplayedMonthAC10Foundation4DateV_SSS2btcfc",
+            "mangledName": "$s15CalendarControl3DayV4date6number10isSelected0F20WithinDisplayedMonthAC10Foundation4DateV_SSS2btcfc",
+            "moduleName": "CalendarControl",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:15CalendarControl3DayV",
+        "mangledName": "$s15CalendarControl3DayV",
+        "moduleName": "CalendarControl",
+        "declAttributes": [
+          "AccessControl"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "CalendarControl"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "MonthMetadata",
+        "printedName": "MonthMetadata",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(numberOfDays:firstDay:firstDayWeekday:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "MonthMetadata",
+                "printedName": "CalendarControl.MonthMetadata",
+                "usr": "s:15CalendarControl13MonthMetadataV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Date",
+                "printedName": "Foundation.Date",
+                "usr": "s:10Foundation4DateV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:15CalendarControl13MonthMetadataV12numberOfDays8firstDay0hI7WeekdayACSi_10Foundation4DateVSitcfc",
+            "mangledName": "$s15CalendarControl13MonthMetadataV12numberOfDays8firstDay0hI7WeekdayACSi_10Foundation4DateVSitcfc",
+            "moduleName": "CalendarControl",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:15CalendarControl13MonthMetadataV",
+        "mangledName": "$s15CalendarControl13MonthMetadataV",
+        "moduleName": "CalendarControl",
+        "declAttributes": [
+          "AccessControl"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "CalendarControl"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "CalendarPickerViewController",
+        "printedName": "CalendarPickerViewController",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "viewDidLoad",
+            "printedName": "viewDidLoad()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@CalendarControl@objc(cs)CalendarPickerViewController(im)viewDidLoad",
+            "mangledName": "$s15CalendarControl0A20PickerViewControllerC11viewDidLoadyyF",
+            "moduleName": "CalendarControl",
+            "overriding": true,
+            "objc_name": "viewDidLoad",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Custom",
+              "Override",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "viewWillTransition",
+            "printedName": "viewWillTransition(to:with:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CGSize",
+                "printedName": "CoreFoundation.CGSize",
+                "usr": "c:@S@CGSize"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIViewControllerTransitionCoordinator",
+                "printedName": "UIKit.UIViewControllerTransitionCoordinator",
+                "usr": "c:objc(pl)UIViewControllerTransitionCoordinator"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@CalendarControl@objc(cs)CalendarPickerViewController(im)viewWillTransitionToSize:withTransitionCoordinator:",
+            "mangledName": "$s15CalendarControl0A20PickerViewControllerC18viewWillTransition2to4withySo6CGSizeV_So06UIVieweH11Coordinator_ptF",
+            "moduleName": "CalendarControl",
+            "overriding": true,
+            "objc_name": "viewWillTransitionToSize:withTransitionCoordinator:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Custom",
+              "Override",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(nibName:bundle:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "CalendarPickerViewController",
+                "printedName": "CalendarControl.CalendarPickerViewController",
+                "usr": "c:@M@CalendarControl@objc(cs)CalendarPickerViewController"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Foundation.Bundle?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bundle",
+                    "printedName": "Foundation.Bundle",
+                    "usr": "c:objc(cs)NSBundle"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@CalendarControl@objc(cs)CalendarPickerViewController(im)initWithNibName:bundle:",
+            "mangledName": "$s15CalendarControl0A20PickerViewControllerC7nibName6bundleACSSSg_So8NSBundleCSgtcfc",
+            "moduleName": "CalendarControl",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "initWithNibName:bundle:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Custom",
+              "Override"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "collectionView",
+            "printedName": "collectionView(_:numberOfItemsInSection:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UICollectionView",
+                "printedName": "UIKit.UICollectionView",
+                "usr": "c:objc(cs)UICollectionView"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@CalendarControl@objc(cs)CalendarPickerViewController(im)collectionView:numberOfItemsInSection:",
+            "mangledName": "$s15CalendarControl0A20PickerViewControllerC010collectionD0_22numberOfItemsInSectionSiSo012UICollectionD0C_SitF",
+            "moduleName": "CalendarControl",
+            "objc_name": "collectionView:numberOfItemsInSection:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Custom",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "collectionView",
+            "printedName": "collectionView(_:cellForItemAt:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "UICollectionViewCell",
+                "printedName": "UIKit.UICollectionViewCell",
+                "usr": "c:objc(cs)UICollectionViewCell"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UICollectionView",
+                "printedName": "UIKit.UICollectionView",
+                "usr": "c:objc(cs)UICollectionView"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "IndexPath",
+                "printedName": "Foundation.IndexPath",
+                "usr": "s:10Foundation9IndexPathV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@CalendarControl@objc(cs)CalendarPickerViewController(im)collectionView:cellForItemAtIndexPath:",
+            "mangledName": "$s15CalendarControl0A20PickerViewControllerC010collectionD0_13cellForItemAtSo012UICollectionD4CellCSo0kD0C_10Foundation9IndexPathVtF",
+            "moduleName": "CalendarControl",
+            "objc_name": "collectionView:cellForItemAtIndexPath:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Custom",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "collectionView",
+            "printedName": "collectionView(_:didSelectItemAt:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UICollectionView",
+                "printedName": "UIKit.UICollectionView",
+                "usr": "c:objc(cs)UICollectionView"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "IndexPath",
+                "printedName": "Foundation.IndexPath",
+                "usr": "s:10Foundation9IndexPathV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@CalendarControl@objc(cs)CalendarPickerViewController(im)collectionView:didSelectItemAtIndexPath:",
+            "mangledName": "$s15CalendarControl0A20PickerViewControllerC010collectionD0_15didSelectItemAtySo012UICollectionD0C_10Foundation9IndexPathVtF",
+            "moduleName": "CalendarControl",
+            "objc_name": "collectionView:didSelectItemAtIndexPath:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Custom",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "collectionView",
+            "printedName": "collectionView(_:layout:sizeForItemAt:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "CGSize",
+                "printedName": "CoreFoundation.CGSize",
+                "usr": "c:@S@CGSize"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UICollectionView",
+                "printedName": "UIKit.UICollectionView",
+                "usr": "c:objc(cs)UICollectionView"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UICollectionViewLayout",
+                "printedName": "UIKit.UICollectionViewLayout",
+                "usr": "c:objc(cs)UICollectionViewLayout"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "IndexPath",
+                "printedName": "Foundation.IndexPath",
+                "usr": "s:10Foundation9IndexPathV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@CalendarControl@objc(cs)CalendarPickerViewController(im)collectionView:layout:sizeForItemAtIndexPath:",
+            "mangledName": "$s15CalendarControl0A20PickerViewControllerC010collectionD0_6layout13sizeForItemAtSo6CGSizeVSo012UICollectionD0C_So0mD6LayoutC10Foundation9IndexPathVtF",
+            "moduleName": "CalendarControl",
+            "objc_name": "collectionView:layout:sizeForItemAtIndexPath:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Custom",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@CalendarControl@objc(cs)CalendarPickerViewController",
+        "mangledName": "$s15CalendarControl0A20PickerViewControllerC",
+        "moduleName": "CalendarControl",
+        "declAttributes": [
+          "Custom",
+          "AccessControl",
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)UIViewController",
+        "hasMissingDesignatedInitializers": true,
+        "superclassNames": [
+          "UIKit.UIViewController",
+          "UIKit.UIResponder",
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "CalendarControl"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "CalendarDateCollectionViewCell",
+        "printedName": "CalendarDateCollectionViewCell",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "layoutSubviews",
+            "printedName": "layoutSubviews()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@CalendarControl@objc(cs)CalendarDateCollectionViewCell(im)layoutSubviews",
+            "mangledName": "$s15CalendarControl0A22DateCollectionViewCellC14layoutSubviewsyyF",
+            "moduleName": "CalendarControl",
+            "overriding": true,
+            "objc_name": "layoutSubviews",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Custom",
+              "Override",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "traitCollectionDidChange",
+            "printedName": "traitCollectionDidChange(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "UIKit.UITraitCollection?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UITraitCollection",
+                    "printedName": "UIKit.UITraitCollection",
+                    "usr": "c:objc(cs)UITraitCollection"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@CalendarControl@objc(cs)CalendarDateCollectionViewCell(im)traitCollectionDidChange:",
+            "mangledName": "$s15CalendarControl0A22DateCollectionViewCellC05traitD9DidChangeyySo07UITraitD0CSgF",
+            "moduleName": "CalendarControl",
+            "overriding": true,
+            "objc_name": "traitCollectionDidChange:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Custom",
+              "Override",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@CalendarControl@objc(cs)CalendarDateCollectionViewCell",
+        "mangledName": "$s15CalendarControl0A22DateCollectionViewCellC",
+        "moduleName": "CalendarControl",
+        "declAttributes": [
+          "Custom",
+          "AccessControl",
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)UICollectionViewCell",
+        "hasMissingDesignatedInitializers": true,
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "UIKit.UICollectionViewCell",
+          "UIKit.UICollectionReusableView",
+          "UIKit.UIView",
+          "UIKit.UIResponder",
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "__DefaultCustomPlaygroundQuickLookable",
+            "printedName": "__DefaultCustomPlaygroundQuickLookable",
+            "usr": "s:s38__DefaultCustomPlaygroundQuickLookableP",
+            "mangledName": "$ss38__DefaultCustomPlaygroundQuickLookableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "CalendarControl"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "CalendarPickerHeaderView",
+        "printedName": "CalendarPickerHeaderView",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "layoutSubviews",
+            "printedName": "layoutSubviews()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@CalendarControl@objc(cs)CalendarPickerHeaderView(im)layoutSubviews",
+            "mangledName": "$s15CalendarControl0A16PickerHeaderViewC14layoutSubviewsyyF",
+            "moduleName": "CalendarControl",
+            "overriding": true,
+            "objc_name": "layoutSubviews",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Custom",
+              "Override",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(frame:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "CalendarPickerHeaderView",
+                "printedName": "CalendarControl.CalendarPickerHeaderView",
+                "usr": "c:@M@CalendarControl@objc(cs)CalendarPickerHeaderView"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CGRect",
+                "printedName": "CoreFoundation.CGRect",
+                "usr": "c:@S@CGRect"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@CalendarControl@objc(cs)CalendarPickerHeaderView(im)initWithFrame:",
+            "mangledName": "$s15CalendarControl0A16PickerHeaderViewC5frameACSo6CGRectV_tcfc",
+            "moduleName": "CalendarControl",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "initWithFrame:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Custom",
+              "Override"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@CalendarControl@objc(cs)CalendarPickerHeaderView",
+        "mangledName": "$s15CalendarControl0A16PickerHeaderViewC",
+        "moduleName": "CalendarControl",
+        "declAttributes": [
+          "Custom",
+          "AccessControl",
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)UIView",
+        "hasMissingDesignatedInitializers": true,
+        "superclassNames": [
+          "UIKit.UIView",
+          "UIKit.UIResponder",
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "__DefaultCustomPlaygroundQuickLookable",
+            "printedName": "__DefaultCustomPlaygroundQuickLookable",
+            "usr": "s:s38__DefaultCustomPlaygroundQuickLookableP",
+            "mangledName": "$ss38__DefaultCustomPlaygroundQuickLookableP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "CalendarControl"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "CalendarPickerFooterView",
+        "printedName": "CalendarPickerFooterView",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "layoutSubviews",
+            "printedName": "layoutSubviews()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@CalendarControl@objc(cs)CalendarPickerFooterView(im)layoutSubviews",
+            "mangledName": "$s15CalendarControl0A16PickerFooterViewC14layoutSubviewsyyF",
+            "moduleName": "CalendarControl",
+            "overriding": true,
+            "objc_name": "layoutSubviews",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Custom",
+              "Override",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(frame:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "CalendarPickerFooterView",
+                "printedName": "CalendarControl.CalendarPickerFooterView",
+                "usr": "c:@M@CalendarControl@objc(cs)CalendarPickerFooterView"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CGRect",
+                "printedName": "CoreFoundation.CGRect",
+                "usr": "c:@S@CGRect"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@CalendarControl@objc(cs)CalendarPickerFooterView(im)initWithFrame:",
+            "mangledName": "$s15CalendarControl0A16PickerFooterViewC5frameACSo6CGRectV_tcfc",
+            "moduleName": "CalendarControl",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "initWithFrame:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Custom",
+              "Override"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@CalendarControl@objc(cs)CalendarPickerFooterView",
+        "mangledName": "$s15CalendarControl0A16PickerFooterViewC",
+        "moduleName": "CalendarControl",
+        "declAttributes": [
+          "Custom",
+          "AccessControl",
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)UIView",
+        "hasMissingDesignatedInitializers": true,
+        "superclassNames": [
+          "UIKit.UIView",
+          "UIKit.UIResponder",
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "__DefaultCustomPlaygroundQuickLookable",
+            "printedName": "__DefaultCustomPlaygroundQuickLookable",
+            "usr": "s:s38__DefaultCustomPlaygroundQuickLookableP",
+            "mangledName": "$ss38__DefaultCustomPlaygroundQuickLookableP"
+          }
+        ]
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": [
+    {
+      "filePath": "\/Users\/nam.tran3\/Desktop\/Study\/CalendarControl\/CalendarControl\/Controller\/CalendarPickerViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 224,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/nam.tran3\/Desktop\/Study\/CalendarControl\/CalendarControl\/Controller\/CalendarPickerViewController.swift",
+      "kind": "FloatLiteral",
+      "offset": 290,
+      "length": 3,
+      "value": "0.3"
+    },
+    {
+      "filePath": "\/Users\/nam.tran3\/Desktop\/Study\/CalendarControl\/CalendarControl\/Controller\/CalendarPickerViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 452,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/nam.tran3\/Desktop\/Study\/CalendarControl\/CalendarControl\/Controller\/CalendarPickerViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 491,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/nam.tran3\/Desktop\/Study\/CalendarControl\/CalendarControl\/Controller\/CalendarPickerViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 617,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/nam.tran3\/Desktop\/Study\/CalendarControl\/CalendarControl\/Controller\/CalendarPickerViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 686,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/nam.tran3\/Desktop\/Study\/CalendarControl\/CalendarControl\/Controller\/CalendarPickerViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 869,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/nam.tran3\/Desktop\/Study\/CalendarControl\/CalendarControl\/Controller\/CalendarPickerViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1113,
+      "length": 2,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/nam.tran3\/Desktop\/Study\/CalendarControl\/CalendarControl\/Controller\/CalendarPickerViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1356,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/nam.tran3\/Desktop\/Study\/CalendarControl\/CalendarControl\/Controller\/CalendarPickerViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 2082,
+      "length": 3,
+      "value": "\"d\""
+    },
+    {
+      "filePath": "\/Users\/nam.tran3\/Desktop\/Study\/CalendarControl\/CalendarControl\/Controller\/CalendarPickerViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 29,
+      "length": 28,
+      "value": "\"CalendarControl.CalendarPickerViewController\""
+    },
+    {
+      "filePath": "\/Users\/nam.tran3\/Desktop\/Study\/CalendarControl\/CalendarControl\/View\/CalendarDateCollectionViewCell.swift",
+      "kind": "BooleanLiteral",
+      "offset": 216,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/nam.tran3\/Desktop\/Study\/CalendarControl\/CalendarControl\/View\/CalendarDateCollectionViewCell.swift",
+      "kind": "BooleanLiteral",
+      "offset": 247,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/nam.tran3\/Desktop\/Study\/CalendarControl\/CalendarControl\/View\/CalendarDateCollectionViewCell.swift",
+      "kind": "BooleanLiteral",
+      "offset": 437,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/nam.tran3\/Desktop\/Study\/CalendarControl\/CalendarControl\/View\/CalendarDateCollectionViewCell.swift",
+      "kind": "IntegerLiteral",
+      "offset": 520,
+      "length": 2,
+      "value": "18"
+    },
+    {
+      "filePath": "\/Users\/nam.tran3\/Desktop\/Study\/CalendarControl\/CalendarControl\/View\/CalendarDateCollectionViewCell.swift",
+      "kind": "StringLiteral",
+      "offset": 814,
+      "length": 14,
+      "value": "\"EEEE, MMMM d\""
+    },
+    {
+      "filePath": "\/Users\/nam.tran3\/Desktop\/Study\/CalendarControl\/CalendarControl\/View\/CalendarPickerHeaderView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 179,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/nam.tran3\/Desktop\/Study\/CalendarControl\/CalendarControl\/View\/CalendarPickerHeaderView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 222,
+      "length": 2,
+      "value": "26"
+    },
+    {
+      "filePath": "\/Users\/nam.tran3\/Desktop\/Study\/CalendarControl\/CalendarControl\/View\/CalendarPickerHeaderView.swift",
+      "kind": "StringLiteral",
+      "offset": 258,
+      "length": 7,
+      "value": "\"Month\""
+    },
+    {
+      "filePath": "\/Users\/nam.tran3\/Desktop\/Study\/CalendarControl\/CalendarControl\/View\/CalendarPickerHeaderView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 341,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/nam.tran3\/Desktop\/Study\/CalendarControl\/CalendarControl\/View\/CalendarPickerHeaderView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 490,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/nam.tran3\/Desktop\/Study\/CalendarControl\/CalendarControl\/View\/CalendarPickerHeaderView.swift",
+      "kind": "StringLiteral",
+      "offset": 600,
+      "length": 19,
+      "value": "\"xmark.circle.fill\""
+    },
+    {
+      "filePath": "\/Users\/nam.tran3\/Desktop\/Study\/CalendarControl\/CalendarControl\/View\/CalendarPickerHeaderView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 816,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/nam.tran3\/Desktop\/Study\/CalendarControl\/CalendarControl\/View\/CalendarPickerHeaderView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 857,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/nam.tran3\/Desktop\/Study\/CalendarControl\/CalendarControl\/View\/CalendarPickerHeaderView.swift",
+      "kind": "StringLiteral",
+      "offset": 894,
+      "length": 14,
+      "value": "\"Close Picker\""
+    },
+    {
+      "filePath": "\/Users\/nam.tran3\/Desktop\/Study\/CalendarControl\/CalendarControl\/View\/CalendarPickerHeaderView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1073,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/nam.tran3\/Desktop\/Study\/CalendarControl\/CalendarControl\/View\/CalendarPickerHeaderView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1263,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/nam.tran3\/Desktop\/Study\/CalendarControl\/CalendarControl\/View\/CalendarPickerHeaderView.swift",
+      "kind": "FloatLiteral",
+      "offset": 1329,
+      "length": 3,
+      "value": "0.2"
+    },
+    {
+      "filePath": "\/Users\/nam.tran3\/Desktop\/Study\/CalendarControl\/CalendarControl\/View\/CalendarPickerHeaderView.swift",
+      "kind": "StringLiteral",
+      "offset": 1618,
+      "length": 8,
+      "value": "\"MMMM y\""
+    },
+    {
+      "filePath": "\/Users\/nam.tran3\/Desktop\/Study\/CalendarControl\/CalendarControl\/View\/CalendarPickerHeaderView.swift",
+      "kind": "StringLiteral",
+      "offset": 29,
+      "length": 24,
+      "value": "\"CalendarControl.CalendarPickerHeaderView\""
+    },
+    {
+      "filePath": "\/Users\/nam.tran3\/Desktop\/Study\/CalendarControl\/CalendarControl\/View\/CalendarPickerFooterView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 178,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/nam.tran3\/Desktop\/Study\/CalendarControl\/CalendarControl\/View\/CalendarPickerFooterView.swift",
+      "kind": "FloatLiteral",
+      "offset": 244,
+      "length": 3,
+      "value": "0.2"
+    },
+    {
+      "filePath": "\/Users\/nam.tran3\/Desktop\/Study\/CalendarControl\/CalendarControl\/View\/CalendarPickerFooterView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 400,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/nam.tran3\/Desktop\/Study\/CalendarControl\/CalendarControl\/View\/CalendarPickerFooterView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 456,
+      "length": 2,
+      "value": "17"
+    },
+    {
+      "filePath": "\/Users\/nam.tran3\/Desktop\/Study\/CalendarControl\/CalendarControl\/View\/CalendarPickerFooterView.swift",
+      "kind": "StringLiteral",
+      "offset": 569,
+      "length": 26,
+      "value": "\"chevron.left.circle.fill\""
+    },
+    {
+      "filePath": "\/Users\/nam.tran3\/Desktop\/Study\/CalendarControl\/CalendarControl\/View\/CalendarPickerFooterView.swift",
+      "kind": "StringLiteral",
+      "offset": 885,
+      "length": 11,
+      "value": "\" Previous\""
+    },
+    {
+      "filePath": "\/Users\/nam.tran3\/Desktop\/Study\/CalendarControl\/CalendarControl\/View\/CalendarPickerFooterView.swift",
+      "kind": "StringLiteral",
+      "offset": 1006,
+      "length": 10,
+      "value": "\"Previous\""
+    },
+    {
+      "filePath": "\/Users\/nam.tran3\/Desktop\/Study\/CalendarControl\/CalendarControl\/View\/CalendarPickerFooterView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1325,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/nam.tran3\/Desktop\/Study\/CalendarControl\/CalendarControl\/View\/CalendarPickerFooterView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1381,
+      "length": 2,
+      "value": "17"
+    },
+    {
+      "filePath": "\/Users\/nam.tran3\/Desktop\/Study\/CalendarControl\/CalendarControl\/View\/CalendarPickerFooterView.swift",
+      "kind": "StringLiteral",
+      "offset": 1495,
+      "length": 27,
+      "value": "\"chevron.right.circle.fill\""
+    },
+    {
+      "filePath": "\/Users\/nam.tran3\/Desktop\/Study\/CalendarControl\/CalendarControl\/View\/CalendarPickerFooterView.swift",
+      "kind": "StringLiteral",
+      "offset": 1655,
+      "length": 7,
+      "value": "\"Next \""
+    },
+    {
+      "filePath": "\/Users\/nam.tran3\/Desktop\/Study\/CalendarControl\/CalendarControl\/View\/CalendarPickerFooterView.swift",
+      "kind": "StringLiteral",
+      "offset": 1860,
+      "length": 6,
+      "value": "\"Next\""
+    },
+    {
+      "filePath": "\/Users\/nam.tran3\/Desktop\/Study\/CalendarControl\/CalendarControl\/View\/CalendarPickerFooterView.swift",
+      "kind": "StringLiteral",
+      "offset": 29,
+      "length": 24,
+      "value": "\"CalendarControl.CalendarPickerFooterView\""
+    }
+  ]
+}
